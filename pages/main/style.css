@@ -6,6 +6,7 @@ body {
  width: 1600px;
  margin: 0;
 }
+/*section-1_ft + header*/
 #header {
  display: flex;
  flex-direction: row;
@@ -61,7 +62,7 @@ body {
  position: absolute;
  width: 500px;
  height: 400px;
- margin: 166px 220px 214px 880px;
+ margin: 166px 220px 214px 840px;
  font-family: "Roboto";
  font-weight: 700;
  font-size: 106px;
@@ -69,6 +70,7 @@ body {
  color: #ffffff;
  text-align: center;
  z-index: 2;
+ text-transform: uppercase;
 }
 .span-favorite {
  color:#ffee2e;
@@ -94,3 +96,54 @@ body {
  color: #ffffff;
  text-transform: uppercase;
 }
+/*section-2*/
+.section-2-wrapper {
+ display: flex;
+ justify-content: space-between;
+ padding: 140px 220px 200px 219px;
+ padding-top: 140px;
+ padding-left: 219px;
+}
+.heading-2 {
+ padding-left: 12px;
+ font-family: "Roboto";
+ font-weight: 400;
+ font-size: 48px;
+ line-height: 58px;
+ color: #333b41;
+ margin-top: -10px;
+}
+.section-2-text {
+ padding-left: 12px;
+ font-family: "Roboto";
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 22px;
+ color: #333b41;
+}
+.heading-3 {
+ padding-left: 12px;
+ font-family: "Roboto";
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 29px;
+ color: #333b41;
+}
+.section-2-image {
+ width: 609px;
+ height: 403px;
+}
+.section-2-content {
+ width: 465px;
+}
+.flower1 {
+ width:293px;
+ height: 605px;
+ margin-right: 220px;
+ margin-top: -150px;
+}
+/*section-3_animals_card*/
+
+/*bg_section4_pick-and-feed*/
+/*5-st_section*/
+/*footer*/
