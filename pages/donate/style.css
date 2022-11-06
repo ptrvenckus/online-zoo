@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  color: #FDFDFF;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  display: block;
+  margin-left: 63px;
+  padding-top: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.navigation-link_colored {
+  color: #fe9013;
+}
+
+.logo {
+  display: block;
+  width: 82px;
+  height: 52px;
+  border: 1px solid #FDFDFF;
+  font-size: 19px;
+  line-height: 23px;
+  font-family: "Roboto";
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-copyright {
+  margin-left: 341px;
+}
+
+/*footer*/
+#footer {
+  width: 1600px;
+  height: 443px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.footer-wrapper {
+  padding: 100px;
+  width: 998px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footer-middle-content {
+  align-self: flex-end;
+}
+
+.social-media-icons {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.info-about-designer {
+  margin-top: 110px;
+}
+
+#email {
+  width: 50%;
+}
+
+/*interactivity*/
+.logo:hover {
+  color: #fe9013;
+}
+
+.navigation-link:hover {
+  padding: 3px 0px;
+  cursor: pointer;
+  border: 1px solid #d31414;
+  color: #fe9013;
+}
+
+.btn-1:hover {
+  text-transform: lowercase;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-ft:hover {
+  padding: 2px 0px;
+  cursor: pointer;
+  text-decoration: underline;
+}
