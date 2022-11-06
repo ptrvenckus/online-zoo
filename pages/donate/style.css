@@ -53,6 +53,10 @@ body {
 .header-copyright {
   margin-left: 341px;
 }
+.panda-donate {
+  width: 1800px;
+  background-image: url("../../assets/images/panda_donate.png");
+}
 /*main*/
 .main {
   padding-bottom: 200px;
