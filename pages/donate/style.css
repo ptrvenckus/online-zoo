@@ -53,6 +53,47 @@ body {
 .header-copyright {
   margin-left: 341px;
 }
+/*main*/
+.main {
+  padding-bottom: 200px;
+  /*copied background gradient code from figma*/
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  opacity: 0.9;
+}
+.heading-main {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.donate {
+  margin: 69px 220px 100px 220px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+.donate-text {
+  padding-left: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333b41;
+}
+
+.heading-3 {
+  padding-left: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333b41;
+}
 
 /*footer*/
 #footer {
