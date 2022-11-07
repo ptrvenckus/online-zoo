@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333b41;
 }
 
 .wrapper {
@@ -37,6 +42,9 @@ body {
 }
 
 .logo {
+  margin-top: 14px;
+  margin-left: 220px;
+  margin-bottom: 14px;
   display: block;
   width: 82px;
   height: 52px;
@@ -53,10 +61,6 @@ body {
 .header-copyright {
   margin-left: 341px;
 }
-.panda-donate {
-  width: 1800px;
-  background-image: url("../../assets/images/panda_donate.png");
-}
 /*main*/
 .main {
   padding-bottom: 200px;
@@ -67,6 +71,7 @@ body {
   opacity: 0.9;
 }
 .heading-main {
+  margin-left: 200px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 30px;
@@ -74,9 +79,12 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
-
+.main-text {
+  margin-left: 200px;
+}
 .donate {
-  margin: 69px 220px 100px 220px;
+  margin: 78px 312px 42px 200px;
+  padding: 40px 92px 62px 92px;
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   border-radius: 20px;
@@ -91,14 +99,24 @@ body {
 }
 
 .heading-3 {
+  text-align: center;
   padding-left: 12px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #333b41;
+  color: #fe9013;
 }
-
+.four {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 800%;
+  padding-right: 200px;
+}
+.panda-icon {
+  width: 30%;
+  margin-bottom: -25px;
+}
 /*footer*/
 #footer {
   width: 1600px;
@@ -132,6 +150,11 @@ body {
   width: 50%;
 }
 
+/*all buttons*/
+.btn_donate {
+  text-transform: uppercase;
+}
+
 /*interactivity*/
 .logo:hover {
   color: #fe9013;
@@ -144,14 +167,10 @@ body {
   color: #fe9013;
 }
 
-.btn-1:hover {
-  text-transform: lowercase;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.btn-ft:hover {
+.btn_donate:hover {
+  color: #fe9013;
   padding: 2px 0px;
+  text-transform: lowercase;
   cursor: pointer;
   text-decoration: underline;
 }
