@@ -50,7 +50,7 @@ body {
   font-weight: 400;
   text-align: center;
 }
-.logo-footer-in-header {
+.logo-footer-in-header{
   margin-top: 14px;
   margin-left: 220px;
 }
@@ -235,7 +235,6 @@ body {
 .section4-content {
   margin: 69px 220px 100px 220px;
   background:rgba(253, 253, 255, 0.52);
-  backdrop-filter: blur(2px);
   border-radius: 20px;
 }
 
@@ -341,5 +340,61 @@ body {
   padding: 2px 0px;
   cursor: pointer;
   text-decoration: underline;
+}
+
+/* media  */
+@media only screen and (max-width: 1599px) {
+
+  .wrapper {
+  max-width: 1599px;
+  margin: 0 auto;
+}
+.section-wrapper {
+  max-width: 1599px;
+  margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section-wrapper {
+  max-width: 1000px;
+  margin: 0;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapper {
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+}
+.section-wrapper {
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper {
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+.section-wrapper {
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+.palm-div, .sterlitzia-div, .leav-div {
+  display: none;
+}
 }
 
