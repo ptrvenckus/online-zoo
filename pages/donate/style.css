@@ -86,7 +86,6 @@ body {
   margin: 78px 312px 42px 200px;
   padding: 40px 92px 62px 92px;
   background: rgba(253, 253, 255, 0.52);
-  backdrop-filter: blur(2px);
   border-radius: 20px;
 }
 .donate-text {
@@ -174,3 +173,70 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* media  */
+@media only screen and (max-width: 1599px) {
+  .wrapper {
+  max-width: 1599px;
+  margin: 0 auto;
+}
+.section-wrapper {
+  max-width: 1599px;
+  margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section-wrapper {
+  width: 1000px;
+  margin: 0;
+}
+.navigation-link {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 155px;
+  margin-bottom: 10px;
+  width: 55px;
+  height: 35px;
+}
+.header-copyright {
+  margin-left: 200px;
+}
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapper {
+  width: 640px;
+  margin: 0;
+  padding: 0;
+}
+.section-wrapper {
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper {
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+.section-wrapper {
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
